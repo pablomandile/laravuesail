@@ -4,6 +4,9 @@
 
 <ul>
     <h2>
+        <a href="{{ route('inicio') }}">Inicio</a>
+    </h2>
+    <h2>
         <a href="{{ route('notes.create') }}">Crear Nota</a>
     </h2>
 

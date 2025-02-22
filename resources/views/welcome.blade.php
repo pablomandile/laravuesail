@@ -12,12 +12,18 @@
             <div>
                 <br><br><br>
                 <h1>
-
-                    <a href="{{ route('about') }}" >Sobre Nosotros</a> <br>
-                    <a href="{{ route('notes.index') }}" >Notas</a>
-
+                    <ul>
+                        <li>
+                            <a href="{{ route('about') }}" style="text-decoration: none;">Sobre Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="{{ route('notes.index') }}" style="text-decoration: none;">Notas (crud simple)</a>
+                        </li>
+                        <li>
+                            <a href="{{ route('notes.index') }}" style="text-decoration: none;">Notas 2 (crud api)</a>
+                        </li>
+                    </ul>                    
                 </h1>
-
             </div>
         </div>
     </body>
