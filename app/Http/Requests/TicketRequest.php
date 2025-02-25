@@ -23,7 +23,7 @@ class TicketRequest extends FormRequest
     {
         return [
             'title' => 'required|max:30|min:3',
-            'content' => 'nullable|max255|min:3'
+            'content' => 'nullable|max:255|min:3'
         ];
     }
 }

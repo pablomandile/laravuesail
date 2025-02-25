@@ -32,4 +32,4 @@ Route::get('/notes/show/{note}', [ NoteController::class, 'show' ])->name('notes
 Route::delete('/notes/destroy/{note}', [ NoteController::class, 'destroy' ])->name('notes.destroy');
 
 // Segundo Crud de notas usando resource
-Route::resource('/post', PostController::class);
+Route::resource('/tickets', PostController::class);

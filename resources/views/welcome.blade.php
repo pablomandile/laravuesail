@@ -20,7 +20,7 @@
                             <a href="{{ route('notes.index') }}" style="text-decoration: none;">Notas (crud simple)</a>
                         </li>
                         <li>
-                            <a href="{{ route('notes.index') }}" style="text-decoration: none;">Notas 2 (crud api)</a>
+                            <a href="#" style="text-decoration: none;">Tickets (crud api usar Postman localhost/api/tickets)</a>
                         </li>
                     </ul>                    
                 </h1>
